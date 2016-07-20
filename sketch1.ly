@@ -15,11 +15,11 @@ sopranoMusic = \relative c'' {
 	a1 |
 	a4. b8 c4 b8 a8 |
 	g1 |
-	g4. a8 bes4 a8 g8 |
+	g4. a8 b4 a8 g8 |
 	fis1 |
-	fis2 e2 |
-	e4. fis8 g2 |
-	fis1 |
+	f4. g8 a4 g8 f8 |
+	e1 |
+	
 }
 
 sopranoWords = \lyricmode {
@@ -32,13 +32,12 @@ altoMusic = \relative c' {
 	\time 4/4
 	fis1 |
 	fis1 |
-	fis1 |
-	fis2 e2 |
+	fis1~ |
+	fis2 e2~ |
 	e1 |
-	d1 |
-	d1 |
-	d2 cis2 |
-	a1 |
+	c4. d8 e4 d8 c8 |
+	b1 |
+	cis1 |
 }
 
 altoWords = \lyricmode {
@@ -52,12 +51,11 @@ bassMusic = \relative c {
 	d1 |
 	cis1 |
 	c1 |
-	b4. cis8 d4 cis8 b8  |
-	bes1 |
-	a4. b8 c4 b8 a8 |
-	gis1 |
+	b4. cis8 d4 cis8 b8 |
 	a1 |
 	d1 |
+	g,1 |
+	a4. b8 cis4 b8 a8 |
 }
 
 bassWords = \lyricmode {
