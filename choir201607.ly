@@ -10,7 +10,7 @@ sopranoMusic = \relative c'' {
 	\clef "treble"
 	\key g \major
 	\time 4/4
-	\tempo 4 = 80
+	\tempo 4 = 90
 	d1 |
 	d2 d2 |
 	d4. (e8 f4) e8 d8 |
@@ -20,6 +20,10 @@ sopranoMusic = \relative c'' {
 	b2 (a2) |
 	a4. (b8) c2 |
 	b2 r2 |
+	r8 g8 g8 e8 a8 (fis d8) fis8 |
+	e2 r2 |
+	r8 e8 g8 b8 a8 (fis8 g8 e8 |
+	d8 e8) fis4 g2 |
 }
 
 sopranoWords = \lyricmode {
@@ -27,6 +31,8 @@ sopranoWords = \lyricmode {
 	e -- le -- i -- son
 	e -- le -- i -- son
 	e -- le -- i -- son
+	chris -- te -- e -- le -- i -- son
+	chris -- te -- e -- le -- i -- son
 }
 
 altoMusic = \relative c'' {
@@ -42,11 +48,17 @@ altoMusic = \relative c'' {
 	g1~ |
 	g2 fis2 |
 	g2 r2 |
+	r8 g8 g8 e8 a8 (fis d8) fis8 |
+	e2 r2 |
+	r8 e8 g8 b8 a8 (fis8 g8 e8 |
+	d8 e8) fis4 g2 |
 }
 
 altoWords = \lyricmode {
 	Ky -- ri -- e
 	e -- le -- i -- son
+	chris -- te -- e -- le -- i -- son
+	chris -- te -- e -- le -- i -- son
 }
 
 bassMusic = \relative c' {
@@ -62,6 +74,10 @@ bassMusic = \relative c' {
 	cis2 cis2 |
 	d2 d2 |
 	g,2 r2 |
+	r8 g'8 g8 e8 a8 (fis d8) fis8 |
+	e2 r2 |
+	r8 e8 g8 b8 a8 (fis8 g8 e8 |
+	d8 e8) fis4 g2 |
 }
 
 bassWords = \lyricmode {
@@ -69,6 +85,8 @@ bassWords = \lyricmode {
 	e -- le -- i -- son
 	e -- le -- i -- son
 	e -- le -- i -- son
+	chris -- te -- e -- le -- i -- son
+	chris -- te -- e -- le -- i -- son
 }
 
 \score {
