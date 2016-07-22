@@ -8,60 +8,67 @@
 
 sopranoMusic = \relative c'' {
 	\clef "treble"
-	\key d \major
+	\key g \major
 	\time 4/4
 	\tempo 4 = 80
-	a1 |
-	a1 |
-	a4. b8 c4 b8 a8 |
-	g1 |
-	g4. a8 bes4 a8 g8 |
-	fis1 |
-	fis2 e2 |
-	e4. fis8 g2 |
-	fis1 |
+	d1 |
+	d2 d2 |
+	d4. (e8 f4) e8 d8 |
+	c1 |
+	c4. (d8 ees4) d8 c8 |
+	b1 |
+	b2 (a2) |
+	a4. (b8) c2 |
+	b2 r2 |
 }
 
 sopranoWords = \lyricmode {
 	Ky -- ri -- e
+	e -- le -- i -- son
+	e -- le -- i -- son
+	e -- le -- i -- son
 }
 
-altoMusic = \relative c' {
+altoMusic = \relative c'' {
 	\clef "treble" 
-	\key d \major
+	\key g \major
 	\time 4/4
-	fis1 |
-	fis1 |
-	fis1 |
-	fis2 e2 |
-	e1 |
-	d1 |
-	d1 |
-	d2 cis2 |
+	b1 |
+	b1 |
+	b1 |
+	b2 (a2)~ |
 	a1 |
+	g1~ |
+	g1~ |
+	g2 fis2 |
+	g2 r2 |
 }
 
 altoWords = \lyricmode {
 	Ky -- ri -- e
+	e -- le -- i -- son
 }
 
-bassMusic = \relative c {
+bassMusic = \relative c' {
 	\clef "bass" 
-	\key d \major
+	\key g \major
 	\time 4/4
-	d1 |
-	cis1 |
-	c1 |
-	b4. cis8 d4 cis8 b8  |
-	bes1 |
-	a4. b8 c4 b8 a8 |
-	gis1 |
-	a1 |
-	d1 |
+	g1 |
+	fis1 |
+	f1 |
+	e4. (fis8 g4) fis8 e8 |
+	ees1 |
+	d4. (e8 f4) e8 d8 |
+	cis2 cis2 |
+	d2 d2 |
+	g,2 r2 |
 }
 
 bassWords = \lyricmode {
 	Ky -- ri -- e
+	e -- le -- i -- son
+	e -- le -- i -- son
+	e -- le -- i -- son
 }
 
 \score {
